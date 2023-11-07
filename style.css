@@ -81,8 +81,16 @@ body {
 #eventos {
     position: relative;
     object-fit: cover;
-    height: 300px;
     width: 100%;
     min-height: 100px;
 }
 
+#eventos img {
+    height: 315px;
+}
+
+/* Padronizando as imagens do cafe */
+#cafes img {
+    height: 250px;
+    object-fit: cover;
+}
